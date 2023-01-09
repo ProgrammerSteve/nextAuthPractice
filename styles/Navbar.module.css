@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding:10px 10%;
+  background-color: red;
+
+}
+
+.logo {
+  display: grid;
+  place-items: center;
+}
+
+.mainNav {
+  display: flex;
+  gap: 15px;
+  list-style-type: none;
+  align-items: center;
+}
+
+.loading {
+
+}
+
+
+.loaded {
+
+}
