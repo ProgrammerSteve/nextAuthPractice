@@ -1,9 +1,15 @@
 import Link from "next/link";
 import styles from "../../styles/Navbar.module.css";
 import { signIn, signOut, useSession } from "next-auth/react";
+import { useEffect } from "react";
 
 function Navbar() {
   const { data: session, status: loading } = useSession();
+
+  // useEffect(() => {
+  //   console.log("session:", session);
+  //   console.log("loading:", loading);
+  // }, [session, loading]);
 
   return (
     <nav className={styles.header}>
